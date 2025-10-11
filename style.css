@@ -1,0 +1,23 @@
+:root{--accent:#0078ff}
+*{box-sizing:border-box}
+body{font-family:Tahoma,Arial, sans-serif;background:#f3f6fb;margin:0;color:#222;direction:rtl}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.brand{font-weight:700}
+.call{text-decoration:none;background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px}
+.container{max-width:980px;margin:28px auto;padding:0 16px}
+.hero{background:#fff;padding:24px;border-radius:12px;box-shadow:0 8px 24px rgba(2,6,23,.06);text-align:center}
+.cta-row{margin-top:14px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+button, .wh{padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+#reqBtn{background:var(--accent);color:#fff}
+.wh{background:#25D366;color:#fff;text-decoration:none;display:inline-flex;align-items:center}
+.services{margin-top:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px}
+.card{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.06);text-align:center}
+
+/* modal */
+.modal{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.35)}
+.hidden{display:none}
+.modal-card{background:#fff;padding:18px;border-radius:12px;max-width:420px;width:92%;position:relative}
+.close{position:absolute;left:10px;top:8px;background:none;border:0;font-size:20px;cursor:pointer}
+input,textarea{width:100%;padding:8px;margin:8px 0;border:1px solid #ddd;border-radius:8px}
+.row{display:flex;gap:8px;justify-content:flex-end}
